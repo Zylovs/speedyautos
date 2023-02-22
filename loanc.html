@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Dealership</title>
+        <script src="https://kit.fontawesome.com/4bc7eacd5b.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>        
+
+
+
+        <link rel="stylesheet" href="CSS/chat.css">
+        <link rel="stylesheet" href="CSS/home.css">
+        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="stylesheet" href="CSS/loanc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+<!-- Nav bar-->
+<nav>
+  <div class="menu-icon">
+     <span class="fas fa-bars"></span>
+  </div>
+  <div class="logo">
+    Speedy Autos
+  </div>
+  <div class="nav-items">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutus.html">About</a></li>
+    <li><a href="allc.html">All Cars</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="loanc.html">Financing</a></li>
+ </div>
+ <div class="search-icon">
+    
+ </div>
+ <div class="cancel-icon">
+    <span class="fas fa-times"></span>
+ </div>
+</nav>
+<!--Body-->
+<div class="body-container">
+ 
+    <div class="loan-calculator">
+        <div class="top">
+        <h2>Loan Calculator</h2>
+    
+    <form action="#">
+        <div class="group">
+            <div class="title">Amount</div>
+            <input type="text" value=" " class="loan-amount">
+        </div>
+    </form>
+    <form action="#">
+        <div class="group">
+            <div class="title">Interest Rate</div>
+            <input type="text" value=" " class="interest-rate">
+        </div>
+    </form>
+    <form action="#">
+        <div class="group">
+            <div class="title">Monthly Amount</div>
+            <input type="text" value=" " class="loan-tenure">
+        </div>
+    </form>
+</div>
+
+<div class="result">
+   <div class="left">
+    <div class="loan-emi">
+        <h3>Loan EMI</h3>
+        <div class="value"></div>
+    </div>
+
+    <div class="total-interest">
+        <h3>Total Interest Payable</h3>
+        <div class="value"></div>
+    </div>
+
+    <div class="total-amount">
+        <h3>Total Amount</h3>
+        <div class="value"></div>
+    </div>
+
+    <button class="calculate-btn">Calculate</button>
+   </div> 
+
+
+   <div class="right">
+    <canvas id="myChart" width="200" height="200"></canvas>
+   </div>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+        <!--Message box -->
+        <div class="chat-bar-collapsible">
+          <button id="chat-button" type="button" class="collapsible">Chat with us!
+              <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+          </button>
+          <div class="content">
+              <div class="full-chat-block">
+                  <!-- Message Container -->
+                  <div class="outer-container">
+                      <div class="chat-container">
+                          <!-- Messages -->
+                          <div id="chatbox">
+                              <h5 id="chat-timestamp"></h5>
+                              <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                          </div>
+  
+                          <!-- User input box -->
+                          <div class="chat-bar-input-block">
+                              <div id="userInput">
+                                  <input id="textInput" class="input-box" type="text" name="msg"
+                                      placeholder="Tap 'Enter' to send a message">
+                                  <p></p>
+                              </div>
+  
+                              <div class="chat-bar-icons">
+                                  <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                      onclick="heartButton()"></i>
+                                  <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                      onclick="sendButton()"></i>
+                              </div>
+                          </div>
+  
+                          <div id="chat-bar-bottom">
+                              <p></p>
+                          </div>
+  
+                      </div>
+                  </div>
+  
+              </div>
+          </div>
+        </div>
+      
+       <!--footer-->
+       <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo">Speedy Autos</h1>
+              
+          <h2>Contact Info</h2>
+          
+          <address>
+            5534 Somewhere In. The World 22193-10212<br>
+                
+            <p href="tel+1234567895" class="footer__btn">(123) 456-7895</p>
+          </address>
+        </div>
+        
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Car pages</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="allc.html">All Cars</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title"><B>Our Hours</B></h2>
+            
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <p>Monday<br>9:00 AM - 5:00 PM</p>
+              </li>
+      
+              <li>
+                <p>Tuesday<br>9:00 AM - 5:00 PM</p>
+              </li>
+                  
+              <li>
+                <p>Wednesday<br> 9:00 AM - 5:00 PM</p>
+              </li>
+              <li>
+                <p>Thursday<br> 9:00 AM - 5:00 PM</p>
+              </li>
+              <li>
+                <p>Friday<br> 9:00 AM - 5:00 PM</p>
+              </li>
+              <li>
+                <p>Saturday<br> 8:00 AM - 7:00 PM</p>
+              </li>
+              <li>
+                <p>Sunday<br> 10:00 AM - 6:00 PM</p>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+           
+            <h2 class="nav__title">Other</h2>
+            
+            <ul class="nav__ul">
+              <li>
+                <a href="https://docs.google.com/document/d/1LTCWMv0efSiPmCUb-5Y_JuV8pmiwVXQtqZZqXQ0-2SI/edit?usp=sharing">Citations</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        
+        <div class="legal">
+          <p>&copy; 2022 Speedy Autos. All rights reserved.</p>
+          
+      
+        </div>
+      </footer>
+         
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="JS/responses.js"></script>
+<script src="JS/chat.js"></script>
+<script src="JS/navbar.js"></script>
+<script src="JS/loanc.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>

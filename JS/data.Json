@@ -1,0 +1,280 @@
+[
+    {
+     " id":1,
+    "make":"make: ford",
+    "model":"model: f150",
+    "color":"color: silver",
+    "year":"year: 2022",
+    "category":"category: pickup",
+    "engine":"engine: 3.5L V6",
+    "miles":"miles: 5,000",
+    "price":"Price: $31,520"
+    },
+    {
+        " id":2,
+    "make":"make: tesla",
+    "model":"model: model y",
+    "color":"color: white",
+    "year":"year: 2020",
+    "category":"category: suv",
+    "engine":"engine: electric",
+    "miles":"miles: 15,000",
+    "price":"price: $54,190"
+    },
+    {
+        " id":3,
+    "make":"make: ford",
+    "model":"model: mustang shelby gt500",
+    "color":"color: blue",
+    "year":"year: 2022",
+    "category":"category: sedan",
+    "engine":"engine: 5.2L V8",
+    "miles":"miles: 10,000",
+    "price":"price: $70,000"
+    },
+    {
+        " id":4,
+    "make":"make: ford",
+    "model":"model: f150",
+    "color":"color: red",
+    "year":"year: 1994",
+    "category":"category: pickup",
+    "engine":"engine: 5.0L V8",
+    "miles":"miles: 200,000",
+    "price":"price: $6,000" 
+    },
+    {
+        " id":5,
+    "make":"make: mercedes",
+    "model":"model: benz e55 amg",
+    "color":"color: black",
+    "year":"year: 2004",
+    "category":"category: sedan",
+    "engine":"engine: 5.5L V8",
+    "miles":"miles: 165,000",
+    "price":"price: $7,500"
+    
+    },
+    {
+        " id":6,
+    "make":"make: bmw",
+    "model":"model: m3 coupe",
+    "color":"color: white",
+    "year":"year: 2008",
+    "category":"category: sedan",
+    "engine":"engine: 4.0L V8",
+    "miles":"miles:154,000",
+    "price":"price: $14,000"
+    },
+    {
+        " id":7,
+        "make":"make: volkswagen",
+        "model":"model: gti sport",
+        "color":"color: white",
+        "year":"year: 2017",
+        "category":"category: hatchback",
+        "engine":"engine: 2.0L V4",
+        "miles":"miles: 75,000",
+        "price":"price: $16,000" 
+    },
+    {
+        " id":8,
+    "make":"make: mazda",
+    "model":"model: mx-5 miata",
+    "color":"color: red",
+    "year":"year: 1990",
+    "category":"catagory: convertible",
+    "engine":"engine: 1.6L V4",
+    "miles":"miles: v190,000",
+    "price":"price: $10,000"
+    },
+    {
+        " id":9,
+    "make":"make: bmw",
+    "model":"model: 330ci zhp",
+    "color":"color: silver",
+    "year":"year: 2005",
+    "category":"category: convertible",
+    "engine":"engine: 3.0L V6",
+    "miles":"miles: 179,000",
+    "price":"price: $7,000"
+    },
+    {
+        " id":10,
+        "make":"make:toyota",
+        "model":"mdoel:toyota pickup",
+        "color":"color: blue",
+        "year":"year: 1987",
+        "category":"category: pickup",
+        "engine":"engine: 2.4L V4",
+        "miles":"miles: 190,000",
+        "price":"price: $4,200"
+    },
+    {
+        " id":11,
+        "make":"make: honda",
+        "model":"model:accord 2.0T Sport",
+        "color":"color:blue",
+        "year":"year:2020",
+        "category":"category:sedan",
+        "engine":"engine:2.0L V4",
+        "miles":"miles:80,000",
+        "price":"price:$18,000"
+    },
+    {
+        " id":12,
+        "make":"make:mercedes",
+        "model":"model: benz SL550",
+        "color":"color:silver",
+        "year":"year:2009",
+        "category":"category:convertible",
+        "engine":"engine:5.5L V8",
+        "miles":"miles:130,000",
+        "price":"price:$20,000"
+    },
+    {
+        " id":13,
+        "make":"make:lincoln",
+        "model":"model:navigator",
+        "color":"color:red",
+        "year":"year:1999",
+        "category":"category:suv",
+        "engine":"engine:5.4L V8",
+        "miles":"miles:203,000",
+        "price":"price:$3,000"
+    },
+    {
+        " id":14,
+        "make":"make:range rover",
+        "model":"model:supercharged",
+        "color":"color:black",
+        "year":"year:2009",
+        "category":"category:suv",
+        "engine":"engine:4.2L V8",
+        "miles":"miles:150,000",
+        "price":"price:$10,000"
+    },
+    {
+        " id":15,
+        "make":"make:toyota",
+        "model":"Model:fj cruiser",
+        "color":"color:silver",
+        "year":"year:2007",
+        "category":"category:suv",
+        "engine":"engine:4.0L V6",
+        "miles":"miles:145,000",
+        "price":"price:$6,000"
+    
+    },
+    {
+        " id":16,
+        "make":"make:subaru",
+        "model":"model:forester 2.5xt",
+        "color":"color:silver",
+        "year":"year:2005",
+        "category":"category:suv",
+        "engine":"engine:2.5L V4",
+        "miles":"miles:197,000",
+        "price":"price:$7,500"
+        
+    },
+    {
+        " id":17,
+        "make":"make:audi",
+        "model":"model:rs7",
+        "color":"color:daytona gray",
+        "year":"year:2007",
+        "category":"category:sedan",
+        "engine":"engine:4.2L V8",
+        "miles":"miles:100,000",
+        "price":"price:$39,000"
+    },
+    {
+        " id":18,
+        "make":"make:toyota",
+        "model":"model:tacoma trd",
+        "color":"color:silver",
+        "year":"year:2010",
+        "category":"category:pickup",
+        "engine":"engine:4.0L V6",
+        "miles":"miles:97,000",
+        "price":"price:$19,000"
+    },
+    {
+        " id":19,
+        "make":"make:subaru",
+        "model":"model:impreza wrx",
+        "color":"color:blue",
+        "year":"year:2013",
+        "category":"category:hatchback",
+        "engine":"engine:2.0L V4",
+        "miles":"miles:97,000",
+        "price":"price:$8,500"
+    },
+    {
+        " id":20,
+        "make":"make:honda",
+        "model":"model:civic si",
+        "color":"color:red",
+        "year":"year:1990",
+        "category":"category:hatchback",
+        "engine":"engine:1.6L V4",
+        "miles":"miles:197,000",
+        "price":"price:$7,500"
+    },
+    {
+        " id":21,
+        "make":"make:ram",
+        "model":"model:3500 limited longhorn mega cab 4x4",
+        "color":"color:white",
+        "year":"year:2021",
+        "category":"category:pickup",
+        "engine":"engine:6.7L 6 cylinder diesel",
+        "miles":"miles:97,000",
+        "price":"price:$21,000"
+    },
+    {
+        " id":22,
+        "make":"make:lexus",
+        "model":"model:sc 430 pebble beach edition",
+        "color":"color:black",
+        "year":"year:2005",
+        "category":"category:convertible",
+        "engine":"engine:4.3L V8",
+        "miles":"miles:87,000",
+        "price":"price:$13,000"
+    },
+    {
+        " id":23,
+        "make":"make:honda",
+        "model":"model:s2000",
+        "color":"color:white",
+        "year":"year:2001",
+        "category":"category:convertible",
+        "engine":"engine:2.0L V4",
+        "miles":"miles:27,000",
+        "price":"price:$26,000"
+    },
+    {
+        " id":24,
+        "make":"make:volvo",
+        "model":"model:c30 polestar",
+        "color":"color:blue",
+        "year":"year:2013",
+        "category":"category:hatchback",
+        "engine":"engine:2.5L V5",
+        "miles":"miles:91,000",
+        "price":"price:$26,000"
+    },
+    {
+        " id":25,
+        "make":"make:mazda",
+        "model":"model:speed 3",
+        "color":"color:red",
+        "year":"year:2009",
+        "category":"category:hatchback",
+        "engine":"engine:2.0L V4",
+        "miles":"miles:117,000",
+        "price":"price:$9,225"
+    }
+]

@@ -1,0 +1,28 @@
+.body-container{
+    margin-top: -20px;
+    max-width: 100%;
+    height: 70vh;
+    background-color: #79A9D1;
+    }
+
+    @media (max-width:1500px){
+        .body-container{
+            height: 155vh;
+        }
+    }
+
+    @media (max-width:1499px){
+        .body-container{
+            height: 160vh;
+        }
+    }
+	@media (max-width:1150px){
+        .body-container{
+            height: 240vh;
+        }
+    }
+	@media (max-width:762px){
+        .body-container{
+            height: 410vh;
+        }
+    }
